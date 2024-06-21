@@ -1,3 +1,28 @@
+## rqt_image_overlay (jazzy) - 0.3.1-5
+
+The packages in the `rqt_image_overlay` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy rqt_image_overlay --override-release-repository-push-url git@github.com:revyos-ros/rqt_image_overlay-release` on `Fri, 21 Jun 2024 05:13:09 -0000`
+
+These packages were released:
+- `rqt_image_overlay`
+- `rqt_image_overlay_layer`
+
+Version of package(s) in repository `rqt_image_overlay`:
+
+- upstream repository: https://github.com/ros-sports/rqt_image_overlay.git
+- release repository: https://github.com/revyos-ros/rqt_image_overlay-release.git
+- rosdistro version: `0.3.1-4`
+- old version: `0.3.1-4`
+- new version: `0.3.1-5`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rqt_image_overlay (galactic) - 0.0.9-1
 
 The packages in the `rqt_image_overlay` repository were released into the `galactic` distro by running `/usr/bin/bloom-release --rosdistro galactic rqt_image_overlay` on `Fri, 28 Oct 2022 23:36:19 -0000`
