@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-image-overlay
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-compressed-image-transport <!nocheck>, ros-humble-image-transport, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-ros-image-to-qimage, ros-humble-rqt-gui, ros-humble-rqt-gui-cpp, ros-humble-rqt-image-overlay-layer, ros-humble-std-msgs <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-image-overlay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev, ros-humble-image-transport, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-ros-image-to-qimage, ros-humble-rqt-gui, ros-humble-rqt-gui-cpp, ros-humble-rqt-image-overlay-layer, ros-humble-ros-workspace
+Description: An rqt plugin to display overlays for custom msgs on an image using plugins.
