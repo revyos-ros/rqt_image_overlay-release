@@ -1,4 +1,4 @@
-release_repo_url: git@github.com:revyos-ros/rqt_image_overlay-release
+release_repo_url: git@github.com:revyos-ros/rqt_image_overlay-release.git
 tracks:
   galactic:
     actions:
